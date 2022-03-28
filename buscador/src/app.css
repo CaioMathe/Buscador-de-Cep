@@ -1,0 +1,42 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: white;
+}
+main{
+    width: 250px;
+    padding: 1rem;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.container-input{
+   margin: 10px;
+   background-color: rgb(12, 12, 12);
+   padding: 15px;
+   border-radius: 8px;
+   display: flex;
+}
+.container-input input{
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+    color: white;
+    outline: none;
+}
+.container-input::placeholder{
+    color: #f1f1f1;
+}
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
